@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该文件是AboutActivity.java文件所使用的布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	
+	 
+	 
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+<TextView
+            android:id="@+id/cur2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="电量：86%"
+            android:textSize="20sp" />
+	  <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+	<TextView
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="温度：19.9℃"
+            android:textSize="20sp" />
+         <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/cur1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="电池电流：0.066A"
+            android:textSize="20sp" />
+         <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" />
+	    
+        <TextView
+            android:id="@+id/adc01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第一节电压："
+            android:textSize="20sp" />
+      <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" />  
+        
+        <TextView
+            android:id="@+id/adc02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第二节电压："
+            android:textSize="20sp" />
+       <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第三节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第四节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第五节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第六节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第七节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第八节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第九节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第十节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第十一节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第十二节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adc13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="第十三节电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <TextView
+            android:id="@+id/adcAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="电池电压："
+            android:textSize="20sp" />
+        <View    
+	   	android:layout_width="fill_parent"  
+    	android:layout_height="2px"  
+   		android:background="#FF909090" /> 
+        <Button 
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="图表显示"/>
+         
+        
+        
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1dip"
+        android:background="@android:color/white"
+        android:baselineAligned="false"
+        android:gravity="bottom|center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_tab_one"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="1dp"
+            android:gravity="bottom|center"
+            android:padding="10dp"
+            android:text="电池信息"
+            android:textColor="@color/color_for_tab_text"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_two"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:drawablePadding="1dp"
+            android:gravity="bottom|center"
+            android:padding="10dp"
+            android:text="直方图"
+            android:textColor="@color/color_for_tab_text"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_three"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:drawablePadding="1dp"
+            android:gravity="bottom|center"
+            android:padding="10dp"
+            android:text="曲线图"
+            android:textColor="@color/color_for_tab_text"
+            android:textSize="18sp" />
+        
+        <RadioButton
+            android:id="@+id/rb_tab_four"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:drawablePadding="1dp"
+            android:gravity="bottom|center"
+            android:padding="10dp"
+            android:text="日志"
+            android:textColor="@color/color_for_tab_text"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/line"
+        style="@style/horizontal_line_board"
+        android:layout_above="@+id/radio_group" />
+
+    <FrameLayout
+        android:id="@+id/tabcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/line" />
+
+</RelativeLayout>

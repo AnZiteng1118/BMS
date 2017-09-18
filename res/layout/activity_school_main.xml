@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" 
+            android:layout_marginTop="@dimen/height_3"
+            android:orientation="horizontal" >
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/dianliang" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="电池电量："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="99%"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/sheng" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="剩余容量："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="9.114Ah"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" 
+            android:layout_marginTop="@dimen/height_3"
+            android:orientation="horizontal" >
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/man" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="满充容量："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="9.118Ah"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/man" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="出厂容量："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="10.000Ah"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" 
+            android:layout_marginTop="@dimen/height_3"
+            android:orientation="horizontal" >
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/zhuangtai" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="通信状态："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="正在通信"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/yunxing" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="运行状态："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="充电开 放电关"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" 
+            android:layout_marginTop="@dimen/height_3"
+            android:orientation="horizontal" >
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/dianliu" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="电池电流："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="放电"
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="0.066A"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/dianya" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="电池电压："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="41.319V"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" 
+            android:layout_marginTop="@dimen/height_3"
+            android:orientation="horizontal" >
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/wendu" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="电池温度："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="19.9℃"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/width_25"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/width_1"
+                    android:contentDescription="@string/d"
+                    android:src="@drawable/shezhi" />
+
+                <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/width_25"
+	                android:layout_weight="1"
+	                android:orientation="vertical" >
+	                
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="通信设置："
+                        android:textColor="@color/main_color"
+                        android:textSize="35px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="30px" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" 
+		                android:paddingLeft="5px"	
+                		android:gravity="center_vertical"
+                        android:text="选择蓝牙"
+                        android:textSize="30px" />
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    
+
+</LinearLayout>

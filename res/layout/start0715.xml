@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该文件是AboutActivity.java文件所使用的布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+        android:focusable="true" 
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"
+    />
+	    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+	        <!-- <TextView
+	            android:id="@+id/AmoMcu_taobao"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#000000"
+	            android:textColor="#00ff00"
+	            android:gravity="center"
+	            android:textStyle="bold"      
+	            android:text="阿莫单片机科技淘宝店出品\r\namomcu.taobao.com"     
+	            android:textSize="30sp"/>   -->      
+        
+   
+        <!-- <EditText
+            android:id="@+id/start_edit_SetDeviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:maxLength="20"
+            android:text="BLE4.0-Device"
+            android:textSize="24sp" /> -->
+
+       <!--  <Button
+            android:id="@+id/start_button_SetDeviceName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="设置设备名(需你手动重启设备后生效)"
+            android:textSize="20sp"
+            android:textStyle="bold" />     -->    
+        
+        <TextView
+            android:id="@+id/start_txt_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="当前温度:\r\n当前湿度:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/start_txt_ADC0ADC1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="ADC4: ?  ADC5: ?"
+            android:textSize="20sp" />
+        
+       
+
+        <Button
+            android:id="@+id/start_button_Read_ADC4ADC5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="读取当前ADC4、ADC5的值"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- <EditText
+            android:id="@+id/start_txt_SetPWM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:maxLength="8"
+            android:text="50607080"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/start_button_SetPwm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="设置4通道PWM"
+            android:textSize="20sp"
+            android:textStyle="bold" /> -->
+<!-- <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"  >        
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"  >      
+	
+		<Switch  
+	        android:id="@+id/led1_switch"  
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"  
+	        android:textOff="Led1关"  
+	        android:textOn="Led1开" />          
+
+		<Switch  
+	        android:id="@+id/led2_switch"  
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"  
+	        android:textOff="Led2关"  
+	        android:textOn="Led2开" />  
+		
+		<Switch  
+	        android:id="@+id/led3_switch"  
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"  
+	        android:textOff="Led3关"  
+	        android:textOn="Led3开" />   
+     </LinearLayout>
+		<Switch  
+	        android:id="@+id/relay_switch"  
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"  
+	        android:textOff="继电器关"  
+	        android:textOn="继电器开" />   
+	        		
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/board_info_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="按键状态"
+            android:textSize="24sp" />        				
+    </LinearLayout> -->
+</LinearLayout>
+</LinearLayout>
